@@ -12,8 +12,8 @@
 // - E-mail usually won't line-break if there's no punctuation to break at.
 // - Double-clicking selects the whole number as one word if it's all alphanumeric.
 //
-#ifndef FREICOIN_BASE58_H
-#define FREICOIN_BASE58_H
+#ifndef SEOCOIN_BASE58_H
+#define SEOCOIN_BASE58_H
 
 #include <string>
 #include <vector>
@@ -276,7 +276,7 @@ class CFreicoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 0,
+        PUBKEY_ADDRESS = 38,
         SCRIPT_ADDRESS = 5,
         PUBKEY_ADDRESS_TEST = 111,
         SCRIPT_ADDRESS_TEST = 196,

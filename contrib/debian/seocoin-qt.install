@@ -1,0 +1,5 @@
+seocoin-qt usr/bin
+share/pixmaps/seocoin32.xpm usr/share/pixmaps
+share/pixmaps/seocoin80.xpm usr/share/pixmaps
+debian/seocoin-qt.desktop usr/share/applications
+debian/seocoin-qt.protocol usr/share/kde4/services/

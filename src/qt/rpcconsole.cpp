@@ -2,7 +2,7 @@
 #include "ui_rpcconsole.h"
 
 #include "clientmodel.h"
-#include "freicoinrpc.h"
+#include "seocoinrpc.h"
 #include "guiutil.h"
 
 #include <QTime>

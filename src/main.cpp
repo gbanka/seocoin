@@ -1347,7 +1347,7 @@ mpq static GetBlockValue(int nHeight, const mpq& nFees)
            GetPerpetualSubsidyAmount(nHeight) + nFees;
 }
 
-static const int64 nTargetSpacing = 10 * 60;
+static const int64 nTargetSpacing = 120;
 static const int64 nOriginalInterval = 2016;
 static const int64 nFilteredInterval =    9;
 static const int64 nOriginalTargetTimespan = nOriginalInterval * nTargetSpacing; // two weeks
@@ -1825,7 +1825,7 @@ bool CTransaction::ConnectInputs(MapPrevTx inputs,
 {
     // Take over previous transactions' spent pointers
     // fBlock is true when this is called from AcceptBlock when a new best-block is added to the blockchain
-    // fMiner is true when called from the internal freicoin miner
+    // fMiner is true when called from the internal seocoin miner
     // ... both are false when called from CTransaction::AcceptToMemoryPool
     if (!IsCoinBase())
     {
@@ -2861,13 +2861,13 @@ Let this be the awaited dawn.";
         block.hashPrevBlock  = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1356123600;
+        block.nTime    = 1356123200;
         block.nBits    = 0x1d00ffff;
         block.nNonce   =  278229610;
 
         if (fTestNet)
         {
-            block.nTime    = 1356123600;
+            block.nTime    = 1356123200;
             block.nNonce   = 3098244593;
         }
 
@@ -4589,7 +4589,7 @@ void static FreicoinMiner(CWallet *pwallet)
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
 
     // Make this thread recognisable as the mining thread
-    RenameThread("freicoin-miner");
+    RenameThread("seocoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);

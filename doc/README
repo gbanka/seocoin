@@ -22,10 +22,10 @@ You need the Qt4 run-time libraries to run Freicoin-QT. On Debian or Ubuntu:
   sudo apt-get install libqtgui4
 
 Unpack the files into a directory and run:
- bin/32/freicoin-qt (GUI, 32-bit)
- bin/32/freicoind (headless, 32-bit)
- bin/64/freicoin-qt (GUI, 64-bit)
- bin/64/freicoind (headless, 64-bit)
+ bin/32/seocoin-qt (GUI, 32-bit)
+ bin/32/seocoind (headless, 32-bit)
+ bin/64/seocoin-qt (GUI, 64-bit)
+ bin/64/seocoind (headless, 64-bit)
 
 
 See the documentation at the bitcoin wiki:

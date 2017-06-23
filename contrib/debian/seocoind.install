@@ -1,0 +1,2 @@
+debian/bin/seocoind usr/bin
+src/seocoind usr/lib/seocoin

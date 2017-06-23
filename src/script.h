@@ -2,8 +2,8 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef H_FREICOIN_SCRIPT
-#define H_FREICOIN_SCRIPT
+#ifndef H_SEOCOIN_SCRIPT
+#define H_SEOCOIN_SCRIPT
 
 #include <string>
 #include <vector>

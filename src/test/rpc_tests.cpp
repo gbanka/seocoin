@@ -3,7 +3,7 @@
 
 #include "base58.h"
 #include "util.h"
-#include "freicoinrpc.h"
+#include "seocoinrpc.h"
 
 using namespace std;
 using namespace json_spirit;
